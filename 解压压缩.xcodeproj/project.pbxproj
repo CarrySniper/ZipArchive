@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F52A30FA4D57E8321480E52 /* libPods-解压压缩.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1E61FDF3D413C75458D964 /* libPods-解压压缩.a */; };
+		8029637E1EB2EE810087D5B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8029637D1EB2EE810087D5B1 /* main.m */; };
+		802963811EB2EE810087D5B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 802963801EB2EE810087D5B1 /* AppDelegate.m */; };
+		802963841EB2EE810087D5B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802963831EB2EE810087D5B1 /* ViewController.m */; };
+		802963871EB2EE810087D5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802963851EB2EE810087D5B1 /* Main.storyboard */; };
+		802963891EB2EE810087D5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802963881EB2EE810087D5B1 /* Assets.xcassets */; };
+		8029638C1EB2EE810087D5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8029638A1EB2EE810087D5B1 /* LaunchScreen.storyboard */; };
+		802963951EB31FB50087D5B1 /* ArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 802963941EB31FB50087D5B1 /* ArchiveManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1495D499938CC213C8E4314E /* Pods-解压压缩.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-解压压缩.debug.xcconfig"; path = "Pods/Target Support Files/Pods-解压压缩/Pods-解压压缩.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1E61FDF3D413C75458D964 /* libPods-解压压缩.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-解压压缩.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		802963791EB2EE810087D5B1 /* 解压压缩.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "解压压缩.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8029637D1EB2EE810087D5B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8029637F1EB2EE810087D5B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		802963801EB2EE810087D5B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		802963821EB2EE810087D5B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		802963831EB2EE810087D5B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		802963861EB2EE810087D5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		802963881EB2EE810087D5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8029638B1EB2EE810087D5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8029638D1EB2EE810087D5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802963931EB31FB50087D5B1 /* ArchiveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveManager.h; sourceTree = "<group>"; };
+		802963941EB31FB50087D5B1 /* ArchiveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveManager.m; sourceTree = "<group>"; };
+		9BC9994A5E47F8750688D1F3 /* Pods-解压压缩.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-解压压缩.release.xcconfig"; path = "Pods/Target Support Files/Pods-解压压缩/Pods-解压压缩.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		802963761EB2EE810087D5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F52A30FA4D57E8321480E52 /* libPods-解压压缩.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D6BEA32B4EFABA51537449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D1E61FDF3D413C75458D964 /* libPods-解压压缩.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		802963701EB2EE810087D5B1 = {
+			isa = PBXGroup;
+			children = (
+				802963931EB31FB50087D5B1 /* ArchiveManager.h */,
+				802963941EB31FB50087D5B1 /* ArchiveManager.m */,
+				8029637B1EB2EE810087D5B1 /* 解压压缩 */,
+				8029637A1EB2EE810087D5B1 /* Products */,
+				BB5B8EFF2EBA1FB6AB000D12 /* Pods */,
+				24D6BEA32B4EFABA51537449 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8029637A1EB2EE810087D5B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				802963791EB2EE810087D5B1 /* 解压压缩.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8029637B1EB2EE810087D5B1 /* 解压压缩 */ = {
+			isa = PBXGroup;
+			children = (
+				8029637F1EB2EE810087D5B1 /* AppDelegate.h */,
+				802963801EB2EE810087D5B1 /* AppDelegate.m */,
+				802963821EB2EE810087D5B1 /* ViewController.h */,
+				802963831EB2EE810087D5B1 /* ViewController.m */,
+				802963851EB2EE810087D5B1 /* Main.storyboard */,
+				802963881EB2EE810087D5B1 /* Assets.xcassets */,
+				8029638A1EB2EE810087D5B1 /* LaunchScreen.storyboard */,
+				8029638D1EB2EE810087D5B1 /* Info.plist */,
+				8029637C1EB2EE810087D5B1 /* Supporting Files */,
+			);
+			path = "解压压缩";
+			sourceTree = "<group>";
+		};
+		8029637C1EB2EE810087D5B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8029637D1EB2EE810087D5B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB5B8EFF2EBA1FB6AB000D12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1495D499938CC213C8E4314E /* Pods-解压压缩.debug.xcconfig */,
+				9BC9994A5E47F8750688D1F3 /* Pods-解压压缩.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		802963781EB2EE810087D5B1 /* 解压压缩 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802963901EB2EE810087D5B1 /* Build configuration list for PBXNativeTarget "解压压缩" */;
+			buildPhases = (
+				1C3EFCA2FCC45880C88C4749 /* [CP] Check Pods Manifest.lock */,
+				802963751EB2EE810087D5B1 /* Sources */,
+				802963761EB2EE810087D5B1 /* Frameworks */,
+				802963771EB2EE810087D5B1 /* Resources */,
+				C737FC340894F7C6E5550F23 /* [CP] Embed Pods Frameworks */,
+				5838D8D88CD299B43B846E8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "解压压缩";
+			productName = "解压压缩";
+			productReference = 802963791EB2EE810087D5B1 /* 解压压缩.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		802963711EB2EE810087D5B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BmMac;
+				TargetAttributes = {
+					802963781EB2EE810087D5B1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LV9N6Q8MDS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 802963741EB2EE810087D5B1 /* Build configuration list for PBXProject "解压压缩" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 802963701EB2EE810087D5B1;
+			productRefGroup = 8029637A1EB2EE810087D5B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				802963781EB2EE810087D5B1 /* 解压压缩 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		802963771EB2EE810087D5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8029638C1EB2EE810087D5B1 /* LaunchScreen.storyboard in Resources */,
+				802963891EB2EE810087D5B1 /* Assets.xcassets in Resources */,
+				802963871EB2EE810087D5B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C3EFCA2FCC45880C88C4749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5838D8D88CD299B43B846E8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-解压压缩/Pods-解压压缩-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C737FC340894F7C6E5550F23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-解压压缩/Pods-解压压缩-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		802963751EB2EE810087D5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802963951EB31FB50087D5B1 /* ArchiveManager.m in Sources */,
+				802963841EB2EE810087D5B1 /* ViewController.m in Sources */,
+				802963811EB2EE810087D5B1 /* AppDelegate.m in Sources */,
+				8029637E1EB2EE810087D5B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		802963851EB2EE810087D5B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				802963861EB2EE810087D5B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8029638A1EB2EE810087D5B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8029638B1EB2EE810087D5B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8029638E1EB2EE810087D5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8029638F1EB2EE810087D5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		802963911EB2EE810087D5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1495D499938CC213C8E4314E /* Pods-解压压缩.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LV9N6Q8MDS;
+				INFOPLIST_FILE = "解压压缩/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chan.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		802963921EB2EE810087D5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC9994A5E47F8750688D1F3 /* Pods-解压压缩.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LV9N6Q8MDS;
+				INFOPLIST_FILE = "解压压缩/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chan.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		802963741EB2EE810087D5B1 /* Build configuration list for PBXProject "解压压缩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8029638E1EB2EE810087D5B1 /* Debug */,
+				8029638F1EB2EE810087D5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802963901EB2EE810087D5B1 /* Build configuration list for PBXNativeTarget "解压压缩" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802963911EB2EE810087D5B1 /* Debug */,
+				802963921EB2EE810087D5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 802963711EB2EE810087D5B1 /* Project object */;
+}
